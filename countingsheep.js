@@ -1,0 +1,30 @@
+function countSheeps(arrayOfSheep) {
+  console.log(arrayOfSheep.filter(Boolean).length);
+}
+
+countSheeps([
+  true,
+  true,
+  true,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+]);
