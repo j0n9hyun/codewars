@@ -5,11 +5,11 @@ function positiveSum(arr) {
     if (v > 0) {
       // console.log('외쳐');
       sum += v;
-      return sum;
     }
   });
-  console.log(sum);
+  // console.log(sum);
+  return sum;
 }
 
 // console.log(sum);
-positiveSum([1, 2, 3, 4, 5]);
+positiveSum([-1,2,3,4,-5]);

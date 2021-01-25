@@ -9,6 +9,6 @@ function bmi(weight, height) {
   } else {
     console.log('Obese');
   }
-}
+} 
 
 bmi(80, 1.8);
