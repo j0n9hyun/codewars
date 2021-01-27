@@ -1,7 +1,10 @@
 const accum = (s) => {
-  for (let i = 0; i < s.length; i++) {
-    console.log(s[i]);
-  }
+  const count = s.split('').map((v, idx) => {
+    let t = v.toUpperCase() + v.toLowerCase().repeat(idx);
+
+    return t;
+  });
+  console.log(count.join('-'));
 };
 
-accum('abcd');
+accum('ZpglnRxqenU');
